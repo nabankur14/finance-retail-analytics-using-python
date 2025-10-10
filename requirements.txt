@@ -1,3 +1,15 @@
+# ==========================================================
+# Finance & Retail Analytics (FRA) - Project Requirements
+# ==========================================================
+# Notes:
+# - These are exact libraries found in your notebook plus minor dependencies 
+#   required to run it smoothly.
+# - If you used Google Colab, keep 'google-colab'.
+#   If you run locally, you can remove it.
+# - To install dependencies, run:
+#       pip install -r requirements.txt
+# ==========================================================
+
 # Core Libraries
 numpy==1.23.5
 pandas==2.2.3
