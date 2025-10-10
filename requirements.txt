@@ -1,0 +1,19 @@
+# Core Libraries
+numpy==1.23.5
+pandas==2.2.3
+scipy==1.11.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Machine Learning & Modeling
+scikit-learn==1.5.1
+statsmodels==0.14.1
+
+# Utility
+IPython==8.27.0
+warnings==0.1.0
+
+# Optional / Cloud Integration (comment out if not used)
+google-colab==1.0.0
