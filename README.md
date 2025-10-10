@@ -61,5 +61,43 @@ This folder contains all the **notebooks** used in the _Finance & Retail Analyti
    - Identifies key drivers of company default risk.
    - Provides actionable recommendations for investment and credit decisions.
    - Includes visual risk-return analysis of five Indian stocks.
+  
+# 🧠 Project Title
+**Author:** Nabankur Ray 
+
+## 📘 Overview
+Brief introduction — what problem this project solves and why it matters.
+
+## 🎯 Objective
+Clearly state the goal of the project (business or analytical objective).
+
+## 📂 Dataset
+- **Source:** mention dataset origin (e.g., Kaggle, internal dataset, simulated)
+- **Size:** number of rows/columns
+- **Key Features:** list 4–5 main variables
+
+## 🔍 Methodology
+1. **Data Cleaning & Preprocessing**
+2. **Exploratory Data Analysis (EDA)**
+3. **Feature Engineering / Selection**
+4. **Model Development**
+5. **Model Evaluation**
+6. **Insights & Recommendations**
+
+## 🧮 Tools & Technologies
+`Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Scikit-learn`, `Statsmodels`, `SQL`, `Power BI`, etc.
+
+## 📊 Results & Insights
+Summarize main findings with metrics (e.g., MAE, RMSE, R²).  
+Add charts or screenshots under `/visuals`.
+
+## 🚀 Future Scope
+List possible improvements or extensions.
+
+## 📁 Folder Structure
+- `/notebooks` — exploratory and modeling Jupyter notebooks  
+- `/data` — processed CSVs and sample data (sensitive/raw data excluded)   
+- `BUSINESS_REPORT-FRA.pdf` — full business & technical report
+
 
 
