@@ -2,7 +2,7 @@
 <h3 align="center" style="color:#17252a;">Predictive Financial Health Assessment & Market Risk Analysis</h3>
 
 <p align="center">
-  <strong>Author:</strong> <a href="https://github.com/NabankurRay" target="_blank" style="color:#3aafa9;">Nabankur Ray</a>  
+  <strong>Author:</strong> <a href="https://github.com/nabankur14" target="_blank" style="color:#3aafa9;">Nabankur Ray</a>  
 </p>
 
 <hr>
