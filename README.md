@@ -101,5 +101,5 @@ README.md      → Project documentation (this file)
 
 <hr>
 <p align="center" style="font-size:14px; color:#555;">
-© 2025 <strong>Nabankur Ray</strong> | Data Science & Business Analytics Portfolio  
+© 2025 <strong>Nabankur Ray</strong> | Data Scientist 
 </p> 
