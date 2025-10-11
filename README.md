@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#2b7a78;">🧠 Finance & Retail Analytics (FRA) Project</h1>
+<h1 align="center" style="color:#2b7a78;">🧠 Finance & Retail Analytics </h1>
 <h3 align="center" style="color:#17252a;">Predictive Financial Health Assessment & Market Risk Analysis</h3>
 
 <p align="center">
