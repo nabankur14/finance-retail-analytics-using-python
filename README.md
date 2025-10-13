@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#2b7a78;">🧠 Finance & Retail Analytics </h1>
+<h1 align="center" style="color:#2b7a78;">Finance & Retail Analytics </h1>
 <h3 align="center" style="color:#17252a;">Predictive Financial Health Assessment & Market Risk Analysis</h3>
 
 <p align="center">
@@ -7,7 +7,7 @@
 
 <hr>
 
-<h2 style="color:#17252a;">📘 Overview</h2>
+<h2 style="color:#17252a;">Overview</h2>
 <p>
 This project focuses on <strong>Finance & Retail Analytics (FRA)</strong> — developing a <strong>Financial Health Assessment Tool</strong> that predicts company defaults 
 and performs <strong>Market Risk Analysis</strong> on Indian stock portfolios.  
@@ -15,7 +15,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </p>
 
 <details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">🎯 Objective</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Objective</summary>
   <p>
   The goal is to:
   <ul>
@@ -27,7 +27,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">📂 Dataset</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Dataset</summary>
   <ul>
     <li><strong>Source:</strong> Simulated corporate financial data & publicly available stock market data.</li>
     <li><strong>Size:</strong> 4,256 companies × 51 financial variables; 418 weeks × 5 stock prices.</li>
@@ -42,7 +42,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">🔍 Methodology</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Methodology</summary>
   <ol>
     <li><strong>Data Cleaning & Preprocessing:</strong> Outlier detection via IQR, KNN imputation, feature scaling.</li>
     <li><strong>Exploratory Data Analysis (EDA):</strong> Distribution, correlation heatmaps, and financial ratio insights.</li>
@@ -54,7 +54,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">🧮 Tools & Technologies</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Tools & Technologies</summary>
   <p>
   <code>Python</code>, <code>Pandas</code>, <code>NumPy</code>, <code>Matplotlib</code>, <code>Seaborn</code>,  
   <code>Scikit-learn</code>, <code>Statsmodels</code>, <code>SQL</code>, <code>Power BI</code>, <code>Jupyter Notebook</code>
@@ -62,7 +62,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">📊 Results & Insights</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Results & Insights</summary>
   <p>
   <strong>Model Outcome:</strong> The <strong>Tuned Random Forest</strong> model performed best with:
   <ul>
@@ -79,7 +79,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">🚀 Future Scope</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Future Scope</summary>
   <ul>
     <li>Integrate <strong>deep learning</strong> for improved predictive performance.</li>
     <li>Incorporate <strong>macroeconomic indicators</strong> and sentiment data.</li>
