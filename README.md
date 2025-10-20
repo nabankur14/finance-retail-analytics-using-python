@@ -89,7 +89,7 @@ By combining <em>machine learning</em> with <em>financial analytics</em>, it ena
 </details>
 
 <details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">📁 Folder Structure</summary>
+  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Folder Structure</summary>
   <pre style="background:#f0f0f0; padding:10px; border-radius:8px;">
 /notebooks     → Jupyter notebooks for analysis and modeling
 /data          → Processed and sample datasets
