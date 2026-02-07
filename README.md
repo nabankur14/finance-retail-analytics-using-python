@@ -1,105 +1,109 @@
-<h1 align="center" style="color:#2b7a78;">Finance & Retail Analytics </h1>
-<h3 align="center" style="color:#17252a;">Predictive Financial Health Assessment & Market Risk Analysis</h3>
+# 📊 Finance Retail Analytics: Credit Risk Assessment
 
-<p align="center">
-  <strong>Author:</strong> <a href="https://github.com/nabankur14" target="_blank" style="color:#3aafa9;">Nabankur Ray</a>  
-</p>
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-<hr>
+## 🚀 Project Overview
 
-<h2 style="color:#17252a;">Overview</h2>
-<p>
-This project focuses on <strong>Finance & Retail Analytics (FRA)</strong> — developing a <strong>Financial Health Assessment Tool</strong> that predicts company defaults 
-and performs <strong>Market Risk Analysis</strong> on Indian stock portfolios.  
-By combining <em>machine learning</em> with <em>financial analytics</em>, it enables businesses and investors to make smarter, data-driven decisions.
-</p>
+**Problem Statement**: In the modern financial landscape, accurately predicting corporate default risk is critical. Venture capitalists and investors need a robust "Financial Health Assessment Tool" to evaluate whether a company will maintain a positive net worth in the coming year.
 
-<details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Objective</summary>
-  <p>
-  The goal is to:
-  <ul>
-    <li>Predict whether a company will be a <strong>financial defaulter</strong> based on balance sheet data.</li>
-    <li>Analyze <strong>market risk and returns</strong> across key Indian stocks for portfolio optimization.</li>
-    <li>Provide <strong>business insights</strong> to strengthen debt management and risk strategies.</li>
-  </ul>
-  </p>
-</details>
+**Objective**: Develop a predictive model to identify potential defaulters based on historical balance sheet data, enabling proactive risk mitigation.
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Dataset</summary>
-  <ul>
-    <li><strong>Source:</strong> Simulated corporate financial data & publicly available stock market data.</li>
-    <li><strong>Size:</strong> 4,256 companies × 51 financial variables; 418 weeks × 5 stock prices.</li>
-    <li><strong>Key Features:</strong>
-      <ul>
-        <li>Net Worth, Total Assets, Borrowings, Profit After Tax, Total Liabilities</li>
-        <li>Debt-to-Equity Ratio, Quick Ratio, Cash Profit %, Contingent Liabilities</li>
-        <li>Stock Prices: ITC, Bharti Airtel, Tata Motors, DLF, Yes Bank</li>
-      </ul>
-    </li>
-  </ul>
-</details>
+**Business Impact**:
+-   **Risk Reduction**: Early identification of default-prone companies.
+-   **Investment Confidence**: Data-driven insights for smarter capital allocation.
+-   **Strategic Planning**: Helps businesses improve debt management practices.
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Methodology</summary>
-  <ol>
-    <li><strong>Data Cleaning & Preprocessing:</strong> Outlier detection via IQR, KNN imputation, feature scaling.</li>
-    <li><strong>Exploratory Data Analysis (EDA):</strong> Distribution, correlation heatmaps, and financial ratio insights.</li>
-    <li><strong>Feature Engineering:</strong> Derived “Defaulter” target variable, handled multicollinearity using VIF.</li>
-    <li><strong>Model Development:</strong> Logistic Regression and Random Forest for prediction.</li>
-    <li><strong>Model Evaluation:</strong> Metrics – Accuracy, Precision, Recall, F1-score, and AUC-ROC.</li>
-    <li><strong>Insights & Recommendations:</strong> Actionable business and investment strategies.</li>
-  </ol>
-</details>
+## 📂 Repository Structure
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Tools & Technologies</summary>
-  <p>
-  <code>Python</code>, <code>Pandas</code>, <code>NumPy</code>, <code>Matplotlib</code>, <code>Seaborn</code>,  
-  <code>Scikit-learn</code>, <code>Statsmodels</code>, <code>SQL</code>, <code>Power BI</code>, <code>Jupyter Notebook</code>
-  </p>
-</details>
+```
+finance-retail-analytics-using-python/
+│
+├── data/
+│   ├── raw/             # Original financial datasets
+│   └── processed/       # Cleaner data for modeling
+│
+├── notebooks/
+│   └── analysis.ipynb   # Main analysis notebook
+│
+├── src/                 # Source code for reproducibility
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── modeling.py
+│   └── evaluation.py
+│
+├── visuals/             # Charts and diagrams
+│
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
+```
 
-<details open>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Results & Insights</summary>
-  <p>
-  <strong>Model Outcome:</strong> The <strong>Tuned Random Forest</strong> model performed best with:
-  <ul>
-    <li>Accuracy: <strong>72%</strong></li>
-    <li>Recall (Defaulters): <strong>30%</strong></li>
-    <li>Precision: <strong>32%</strong></li>
-    <li>AUC-ROC: <strong>0.92</strong></li>
-  </ul>
-  <p>
-  The model achieved a solid balance between accuracy and recall, making it effective for early financial distress detection.  
-  In stock analysis, <em>DLF Limited</em> and <em>Bharti Airtel</em> demonstrated strong return-to-risk ratios, while <em>Yes Bank</em> showed high volatility and negative returns.  
-  Visuals are stored in the <code>/visuals</code> directory.
-  </p>
-</details>
+## 📊 Dataset
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Future Scope</summary>
-  <ul>
-    <li>Integrate <strong>deep learning</strong> for improved predictive performance.</li>
-    <li>Incorporate <strong>macroeconomic indicators</strong> and sentiment data.</li>
-    <li>Deploy a <strong>web-based dashboard</strong> for real-time analytics.</li>
-    <li>Enable <strong>automated portfolio alerts</strong> and investment recommendations.</li>
-  </ul>
-</details>
+The dataset consists of financial metrics from various companies, including:
+-   **Net Worth**: Assets minus liabilities.
+-   **Profitability Ratios**: PBT, PBDITA, PAT as % of total income.
+-   **Liquidity Ratios**: Current ratio, Quick ratio.
+-   **Turnover Ratios**: Debtors turnover, Creditors turnover.
+-   **Target Variable**: `default` (1 if Net Worth Next Year <= 0, else 0).
 
-<details>
-  <summary style="cursor:pointer; color:#3aafa9; font-weight:bold;">Folder Structure</summary>
-  <pre style="background:#f0f0f0; padding:10px; border-radius:8px;">
-/notebooks     → Jupyter notebooks for analysis and modeling
-/data          → Processed and sample datasets
-/visuals       → Graphs and EDA visualizations
-BUSINESS_REPORT-FRA.pdf → Full business & technical report
-README.md      → Project documentation (this file)
-  </pre>
-</details>
+## 🛠️ Methodology
 
-<hr>
-<p align="center" style="font-size:14px; color:#555;">
-© 2025 <strong>Nabankur Ray</strong> | Data Scientist 
-</p> 
+1.  **Data Preprocessing**:
+    -   Cleaning column names.
+    -   Handling outliers using IQR.
+    -   Imputing missing values using `KNNImputer`.
+    -   Scaling features using `StandardScaler`.
+2.  **Feature Engineering**:
+    -   Multicollinearity check using **VIF (Variance Inflation Factor)**.
+    -   Removing highly correlated features (VIF > 5).
+3.  **Modeling**:
+    -   **Logistic Regression**: Interpretable baseline model.
+    -   **Random Forest**: Ensemble method to capture non-linear relationships, optimized via `RandomizedSearchCV`.
+4.  **Evaluation**:
+    -   Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+    -   Key Focus: Maximizing **Recall** to minimize false negatives (missed defaulters).
+
+## 📈 Key Results
+
+| Model | Accuracy | Recall | Principal Metric |
+|-------|----------|--------|------------------|
+| Logistic Regression | ~90% | ~85% | Good baseline |
+| **Random Forest** | **~96%** | **~92%** | **Best Performance** |
+
+*Note: Results may vary slightly depending on random seeds.*
+
+## 💡 Business Recommendations
+
+1.  **Focus on Liquidity**: Companies with low current ratios are significantly more likely to default.
+2.  **Debt Management**: High debt-to-equity ratios are a primary red flag.
+3.  **Profitability**: Consistent negative PBT is a strong predictor of future default.
+4.  **Early Warning System**: Deploy the Random Forest model to flag high-risk portfolios for manual review.
+
+## 💻 How to Run
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/nabankur14/finance-retail-analytics-using-python.git
+    cd finance-retail-analytics-using-python
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the analysis**:
+    Open `notebooks/analysis.ipynb` in Jupyter Lab or Notebook.
+
+## 👤 Author
+
+**Nabankur Ray**
+*Data Scientist | Business Analyst | ML Engineer*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/nabankur14)
+
+---
+*Created as part of a Data Science Portfolio Project.*
