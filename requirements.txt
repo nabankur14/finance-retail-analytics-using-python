@@ -1,9 +1,17 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-scipy
-statsmodels
-jupyter
-ipython
+# Core Libraries
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Statistical Modeling
+statsmodels>=0.13.0
+scipy>=1.10.0
+
+# Notebook Environment
+jupyter>=1.0.0
